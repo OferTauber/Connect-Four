@@ -1,0 +1,8 @@
+:root {
+  --nav-height: 10rem;
+}
+
+body,
+#root {
+  max-width: 100vw;
+}

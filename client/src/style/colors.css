@@ -1,0 +1,17 @@
+:root {
+  --color-yellow: yellow;
+  --color-bold: #4e944f;
+  --color-primery: #83bd75;
+  --color-secondary: #b4e197;
+  --color-gray: #e9efc0;
+  --color-booked-by-user: #6fb2d2;
+  --color-booked-by-other: yellow;
+  --color-white: #f4f4f4;
+  --color-open: coral;
+  --color-close: #a25b5b;
+  --color-black: #222;
+}
+
+html {
+  font-size: 10px;
+}

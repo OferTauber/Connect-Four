@@ -1,0 +1,84 @@
+.game {
+  height: calc(100vh - var(--nav-height));
+  max-height: calc(100vh - var(--nav-height));
+  width: 100vw;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.game-bord {
+  width: 80%;
+  height: 40%;
+  background: url('../../assets/images/wood.jpg') center center / cover
+    no-repeat;
+  border-radius: 3rem;
+  box-shadow: 1rem 2rem 0 #835400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.bank-wraper {
+  height: 90%;
+  flex-basis: 12.5%;
+  /* background-color: purple; */
+  display: flex;
+  align-items: flex-end;
+}
+
+.bank-wraper.opponent {
+  align-items: flex-start;
+}
+
+.bank {
+  width: 100%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100rem;
+  line-height: 17rem; /*! same as height */
+}
+
+.pist-section {
+  flex-basis: 75%;
+  /* background-color: tan; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pits-line {
+  /* background-color: tan; */
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pits-line.opponent {
+  /* background-color: aqua; */
+  flex-direction: row-reverse;
+}
+
+.pits-line.user .pit {
+  cursor: pointer;
+}
+.pits-line.user .pit:hover {
+  opacity: 0.8;
+}
+
+.pit {
+  width: 8rem;
+  height: 8rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100rem;
+  line-height: 8rem; /*! same as height */
+}
